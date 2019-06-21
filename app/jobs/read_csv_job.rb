@@ -3,5 +3,6 @@ class ReadCsvJob < ApplicationJob
 
   def perform(*args)
     # Do something later
+    p 'read csv job ran'
   end
 end
