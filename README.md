@@ -1,24 +1,9 @@
-# README
+# Bulk CSV Processing
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Processing of bulk csv through rails jobs
 
-Things you may want to cover:
+### Features-
 
-* Ruby version
+* Reading from CSV
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Writing to CSV
