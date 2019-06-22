@@ -5,5 +5,5 @@ App.csv_read_updates = App.cable.subscriptions.create "CsvReadUpdatesChannel",
   disconnected: ->
     # Called when the subscription has been terminated by the server
 
-  received: (data) -> $('#progress').append(data['message'])
+  received: (data) -> $('#progress_bar').css('width',data['message'] + '%')
     # Called when there's incoming data on the websocket for this channel

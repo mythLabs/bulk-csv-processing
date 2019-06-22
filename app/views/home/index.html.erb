@@ -1,3 +1,32 @@
-index
+<div class="container">
+    <div class="row" style="padding:50px">
+        <div class="col-md-6">
 
-<div id=progress></div>
+                <%= form_for(:upload, :html => {class: "form-horizontal", role: "form"},url: home_upload_csv_path ) do |f| %>
+                    <div class="form-group">
+                    <div class="control-label col-sm-2">
+
+                        <%= f.label :csv %>
+
+                    </div>
+                    <div class="col-sm-8">
+
+                        <%= f.file_field :csv %>
+                        
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                    <%= f.submit 'upload', class:'btn btn-primary'  %>
+                    </div>
+                </div>
+                <% end %> 
+        
+        </div>
+        <div class="col-md-6">
+        <button class="btn btn-primary"> Download </button>
+        </div>
+    </div>
+
+</div>
