@@ -4,6 +4,4 @@
 
 ### Features-
 
-* Reading from CSV
-
-* Writing to CSV
+* Reading from CSV - Can be of any size

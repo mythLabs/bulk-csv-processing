@@ -21,7 +21,5 @@ class HomeController < ApplicationController
         
     end
 
-    def generate_csv
-    end
 
 end
